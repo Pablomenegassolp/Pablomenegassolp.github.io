@@ -1,11 +1,61 @@
-h1{color: blueviolet;}
-h2{color: blueviolet;}
-body {
-    background-image: url("https://www.10wallpaper.com/wallpaper/1366x768/1712/Blue_dazzling_lines_dark_background_4K_HD_1366x768.jpg");
-background-repeat: no-repeat;  
-background-size: cover;
+.menu-navegacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+padding-bottom: 150px;
 }
-p{color: aliceblue;}  
- h3{color: aliceblue;}  
-  a{color: rgb(57, 127, 189);}
-  li{color: aliceblue;}
+
+.itens-menu-navegacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item-menu-navegaçao {
+  font-size: 17px;
+  padding: 10px 20px;
+}
+
+.button-menu-navegacao{
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.pessoa{
+  max-width: 500px;
+}
+
+.texto-apresentaçao{
+  font-size:48px;
+  text-align:left;
+  padding-bottom: 50px;
+}
+
+.texto-explicativo{
+  font-size: 16px;
+  text-align: left;
+  padding-bottom: 70px;
+  color: #71717A ;
+}
+
+.apresentacao{
+  display: flex;
+}
+
+.topicos{
+   max-width:320px;
+}
+
+body, a {
+  font-family: "Sora", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.item-rede-sociais{
+font-size:48px;
+display: flex;
+justify-content: center;
+}
+.redes-sociais{
+  max-width: 85%;
+}
