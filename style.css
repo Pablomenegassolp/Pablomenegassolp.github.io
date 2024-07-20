@@ -31,12 +31,12 @@
   padding-bottom: 50px;
   margin-left: 30px;
 }
-.nome-negrito{
+.nome-negrito {
   font-weight: 700;
 }
 
-.nome-verde{
-  color: #1FAB68;
+.nome-verde {
+  color: #1fab68;
 }
 .texto-explicativo {
   font-size: 16px;
@@ -51,12 +51,7 @@
   display: flex;
 }
 
-.topicos {
-  max-width: 320px;
-}
-
-body,
-a {
+body {
   font-family: "Sora", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -90,6 +85,7 @@ a {
   font-size: 32px;
   padding-bottom: 20px;
   margin-left: 80px;
+  color: #ffffff;
 }
 .desenvolvedor-google-texto {
   font-size: 16px;
@@ -109,6 +105,7 @@ a {
   font-size: 32px;
   padding-bottom: 20px;
   margin-left: 80px;
+  color: #ffffff;
 }
 
 .texto-youtube {
@@ -121,6 +118,7 @@ a {
   font-size: 32px;
   padding-bottom: 20px;
   margin-left: 80px;
+  color: #ffffff;
 }
 .desenvolvedor-aple {
   padding-top: 10px;
@@ -134,4 +132,24 @@ a {
   font-size: 16px;
   margin-left: 30px;
   padding-bottom: 10px;
+}
+.experiencia {
+  background-color: black;
+  color: #d4d4d8;
+}
+.topico {
+  background-color: white;
+  color: black;
+  margin-left: 50px;
+  display: flex;
+}
+.topico-rede:hover {
+  background-color: black;
+  color: white;
+}
+.topico-rede{
+  border: 2px black solid;
+  padding:16px;
+  border-radius: 4px;
+  color:black;
 }
