@@ -1,3 +1,9 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
 .menu-navegacao {
   display: flex;
   align-items: center;
@@ -31,6 +37,7 @@
   padding-bottom: 50px;
   margin-left: 30px;
 }
+
 .nome-negrito {
   font-weight: 700;
 }
@@ -38,6 +45,7 @@
 .nome-verde {
   color: #1fab68;
 }
+
 .texto-explicativo {
   font-size: 16px;
   text-align: left;
@@ -56,11 +64,13 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
 }
+
 .item-rede-sociais {
   font-size: 48px;
   display: flex;
   justify-content: center;
 }
+
 .redes-sociais {
   padding-bottom: 180px;
   max-width: 85%;
@@ -71,7 +81,9 @@ body {
   justify-content: center;
   font-size: 48px;
   padding-bottom: 50px;
+  margin-top: 20px;
 }
+
 .desenvolvedor {
   padding-top: 10px;
   border: 2px solid #71717a;
@@ -87,6 +99,7 @@ body {
   margin-left: 80px;
   color: #ffffff;
 }
+
 .desenvolvedor-google-texto {
   font-size: 16px;
   margin-left: 30px;
@@ -120,6 +133,7 @@ body {
   margin-left: 80px;
   color: #ffffff;
 }
+
 .desenvolvedor-aple {
   padding-top: 10px;
   border: 2px solid #71717a;
@@ -128,15 +142,13 @@ body {
   border-radius: 20px;
   margin-top: 30px;
 }
+
 .texto-aple {
   font-size: 16px;
   margin-left: 30px;
   padding-bottom: 10px;
 }
-.experiencia {
-  background-color: black;
-  color: #d4d4d8;
-}
+
 .topico {
   background-color: white;
   color: black;
@@ -144,95 +156,106 @@ body {
   display: flex;
   gap: 32px;
 }
+
 .topico-rede:hover {
   background-color: black;
   color: white;
 }
+
 .topico-rede {
   border: 2px black solid;
   padding: 16px;
   border-radius: 4px;
   color: black;
 }
+
 .me {
   padding-bottom: 30px;
   padding-top: 30px;
 }
-.conteiner2 {
-  max-width: 1280px;
-  margin: 0 auto;
-  background-color: black;
-  color: white;
-  margin-bottom: 30px;
-}
+
 .mais-sobre-mim {
   display: flex;
   margin-top: 100px;
 }
+
 .tsm {
   font-size: 48px;
   padding-bottom: 20px;
   display: flex;
 }
+
 .sm {
   font-size: 16px;
   padding-bottom: 40px;
 }
+
 .pessoa-2 {
   margin-right: 50px;
   max-width: 525px;
   margin-left: 50px;
 }
-.p1flex {
+
+.p-aplicativo-cripto {
   display: flex;
 }
+
+.p-euphoria {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.p-modelo {
+  display: flex;
+}
+
 .p1 {
   padding-left: 40px;
 }
+
 .numero-p1 {
   font-size: 48px;
   padding-top: 60px;
 }
+
 .tp1 {
   font-size: 32px;
   padding-top: 20px;
   padding-bottom: 30px;
 }
+
 .txp1 {
   padding-bottom: 20px;
 }
-.p2flex {
-  display: flex;
-  flex-direction: row-reverse;
-}
-.p3flex {
-  display: flex;
-}
+
 .creditos {
+  background-color: black;
+  display:flex;
+  flex-direction: column;
+}
+
+.creditos1 {
   display: flex;
   align-items: center;
-  margin-left: 40px;
+  color: white;
+  background-color: black;
+  justify-content: space-between;
+ 
 }
+
 .creditos2 {
   display: flex;
   align-items: center;
-  margin-left: 500px;
-  margin-bottom: 10px;
 }
+
 .titulo-p {
   display: flex;
   justify-content: center;
   font-size: 48px;
   gap: 15px;
-  margin-bottom: 150px;
-  padding-top: 75px;
-  margin-top: 25px;
+
 }
-.container {
-  display: flex;
-  background-color: rgb(255, 255, 255);
-  flex-direction: column;
-}
+
 .img-projeto1 {
   width: 530px;
   height: 397.73px;
@@ -240,6 +263,7 @@ body {
   border-radius: 18.76px 0px 0px 0px;
   opacity: 0px;
 }
+
 .img-projeto2 {
   width: 530px;
   height: 397.73px;
@@ -247,6 +271,7 @@ body {
   border-radius: 18.76px 0px 0px 0px;
   opacity: 0px;
 }
+
 .img-projeto3 {
   width: 530px;
   height: 397.73px;
@@ -254,20 +279,37 @@ body {
   border-radius: 18.76px 0px 0px 0px;
   opacity: 0px;
 }
-.habilidade:hover{
+
+.habilidade:hover {
   background-color: black;
   color: white;
 }
-.habilidade{
+
+.habilidade {
   border: 2px black solid;
-  padding: 24px;
+  padding: 40px;
   border-radius: 4px;
   color: black;
-  gap:50;
+  gap: 50;
+}
 
-}   
-.habilidades-redes-sociais{
+.habilidades-redes-sociais {
   display: flex;
   justify-content: center;
+  gap: 32px;
+  margin: 50px 0px;
+}
+.meus-projetos{
+  background-color: black;
+  display:flex;
+  flex-direction: column;
+  gap: 32px;
+  color: white;
+}
+.minha-experiencia{
+  background-color: black;
+  color: white;
+  display:flex;
+  flex-direction: column;
   gap: 32px;
 }
