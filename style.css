@@ -85,7 +85,7 @@ body {
 }
 
 .desenvolvedor {
-  padding-top: 10px;
+  padding: 30px 30px;
   border: 2px solid #71717a;
   margin-left: 40px;
   margin-right: 70px;
@@ -93,38 +93,40 @@ body {
   margin-bottom: 30px;
 }
 
-.desenvolvedor-google {
+.desenvolvedor:hover{
+  background-color: #27272A;
+}
+
+.titulo-experiencia {
   font-size: 32px;
-  padding-bottom: 20px;
-  margin-left: 80px;
   color: #ffffff;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 15px;
 }
 
 .desenvolvedor-google-texto {
   font-size: 16px;
-  margin-left: 30px;
-  padding-bottom: 10px;
+
+}
+.icone-experiencia{
+  color: azure;
+  
 }
 
-.desenvolvedor-youtube {
-  padding-top: 10px;
-  border: 2px solid #71717a;
-  margin-left: 40px;
-  margin-right: 70px;
-  border-radius: 20px;
-}
+
 
 .titulo-youtube {
   font-size: 32px;
-  padding-bottom: 20px;
-  margin-left: 80px;
   color: #ffffff;
+  display: flex;
 }
 
 .texto-youtube {
   font-size: 16px;
-  margin-left: 30px;
-  padding-bottom: 10px;
+  line-height: 160%;
+
+ 
 }
 
 .titulo-aple {
@@ -145,8 +147,8 @@ body {
 
 .texto-aple {
   font-size: 16px;
-  margin-left: 30px;
-  padding-bottom: 10px;
+ 
+  
 }
 
 .topico {
